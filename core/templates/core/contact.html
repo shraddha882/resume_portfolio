@@ -1,0 +1,70 @@
+{% extends 'core/base.html' %} {% block content %}
+
+<div class="container mt-4">
+  <h1 class="mb-2 border-bottom" style="color: #ddc3a5">Contact</h1>
+  <div class="row mb-4">
+    <p class="mx-auto mb-5 text-center" style="color: #ddc3a5">
+      Feel free to contact in case of any query.......
+    </p>
+    <div class="col-sm-9 mb-5">
+      <form action="">
+        <div class="form-now" style="color: #ddc3a5">
+          <div class="form-group col-md-6">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" />
+          </div>
+
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+
+          <div class="form-group col-md-6">
+            <label for="subject">Subject</label>
+            <input type="text" class="form-control" id="subject" />
+          </div>
+
+          <div class="mb-3">
+            <label for="message">Message</label>
+
+            <textarea
+              class="form-control"
+              id="message"
+              cols="20"
+              rows="6"
+              required
+            ></textarea>
+          </div>
+        </div>
+        <button class="btn" style="background-color: #E0A96D; color: black; font-weight: bold;">Send</button>
+      </form>
+    </div>
+    <div class="col-sm-3 text-center" style="color: #E0A96D;">
+        <ul class="list-unstyled" style="color: #E0A96D;">
+            <li>
+                <i class="fas fa-map-marker-alt fa-lg i-color"></i>
+                <p>Gwalior,Madhya Pradesh</p>
+            </li>
+            <li>
+                <i class="fas fa-phone mt-4 fa-lg i-color"></i>
+                <p>+91 9826749984</p>
+            </li>
+            <li>
+                <li class="fas fa-envelope mt-4 fa-lg i-color"></li>
+                <p>shraddhabajpai882002@gmail.com</p>
+            </li>
+
+        </ul>
+
+    </div>
+  </div>
+ 
+</div>
+<div class="text-center">
+    <a href="https://www.linkedin.com/in/shraddha-bajpai/" target="_blank"><i class="fa-brands fa-linkedin fa-xl i-color  mb-3" style="color: #E0A96D;"></i></a>
+    <a href="https://github.com/shraddha882" target="_blank"><i class="fa-brands fa-github fa-xl i-color ml-5 mb-3" style="color: #E0A96D;"></i></a>
+  
+    
+</div>
+
+{% endblock content %}

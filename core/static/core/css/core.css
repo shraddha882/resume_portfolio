@@ -1,0 +1,19 @@
+html,body{
+    height: 100%;
+}
+.container-fluid{
+    min-height: 100%;
+}
+
+.i-colo{
+    color: #ab8763;
+}
+.ss-color{
+    color: #DDC3A5;
+    font-size: 11px;
+}
+.ss-btn{
+    background-color: black;
+    color: #DDC3A5;
+}
+ 

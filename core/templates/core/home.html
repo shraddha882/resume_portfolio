@@ -1,0 +1,26 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class="mt-4">
+    <div class=" text-center">
+        <img src="{% static 'core/images/my.jpg' %}" alt="my picture" class="img-thumbnail" width="150px" height="150px">
+    </div>
+ 
+    <div class="mt-4 mx-3  text-justify" style="color: #DDC3A5;">
+        <h1 class="font-weight-bold">Hello</h1>
+        <div class="px-3">
+            <p style="text-indent: 90px;">
+                
+                
+                Hello, I'm <b style="color: #E0A96D;">Shraddha Bajpai</b>, a final year B.Tech student with a relentless passion for software development and a knack for problem-solving. My skill set encompasses a broad spectrum, ranging from mastery in <b style="color: #E0A96D;" >C/C++, Python Django, and SQL, to crafting seamless web experiences with HTML, CSS, and JavaScript</b>. But what truly sets me apart is my commitment to continuously evolving and embracing new technologies—I'm proficient in React, which enables me to build dynamic and responsive web applications. My proficiency extends to <b style="color: #E0A96D;">data structures and algorithms</b>, where I derive immense satisfaction from optimizing code for efficiency. Additionally, my experience with tools like Git/GitHub facilitates seamless collaboration and version control, while my analytical skills ensure that I approach challenges with a structured and solution-oriented mindset. Welcome to my portfolio, where you'll witness firsthand my passion for coding, my flair for design, and my drive for innovation. Let's connect and embark on exciting tech adventures together!</p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="{% url 'contact'%}" class="btn btn-outline my-3 mr-2" style="background-color: #E0A96D; color: black; font-weight: bold; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;">Hire me</a>
+        <a href="{% url 'contact'%}" class="btn btn-outline my-3 mr-2" style="background-color: black; color: #E0A96D; font-weight: bold;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;">Contact</a>
+    </div>
+
+</div>
+    
+{% endblock content %}
+    
